@@ -1,0 +1,12 @@
+<!-- repeated content -->
+  <div class="col-md-3 col-sm-4 col-xs-6" ng-repeat="post in posts">
+    <div class="thumbnail" style="min-height:450px">
+      <img data-src="holder.js/100%x200" alt="100%x200" src="" data-holder-rendered="true" style="height: 200px; width: 100%; display: block;">
+      <div class="caption">
+        <h3 id="thumbnail-label">{{post.name}}</h3>
+        <p>{{post.city}},{{post.country}}</p> 
+        <p style="font-size:12px">{{ post.discription }}</p>
+      </div>
+    </div>
+  </div>
+<!---->
